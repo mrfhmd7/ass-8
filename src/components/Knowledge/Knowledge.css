@@ -1,18 +1,31 @@
-.knowledge-container{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+.knowledge-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
-.total-cafe{
-    background-color: rgba(17, 17, 17, 0.05);
-    margin-right: 30px;
-    padding-left: 50px;
+.total-cafe {
+  background-color: rgba(17, 17, 17, 0.05);
+  margin-right: 30px;
+  padding-left: 50px;
 }
-.total-cafe h2{
-    color: #6047EC;
+.total-cafe h2 {
+  color: #6047ec;
 }
-@media screen and (max-width:576px) {
-    .knowledge-container{
-        width: 100%;
-        grid-template-columns: 1fr;
-    }
+@media screen and (max-width: 576px) {
+  .knowledge-container {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+}
+.bookmark {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.bookmark p {
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
 }

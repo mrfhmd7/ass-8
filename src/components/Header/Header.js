@@ -6,9 +6,9 @@ const Header = () => {
     <nav className="header">
       <h2>Knowledge Cafe</h2>
       <div className="header-anchor">
-        <a href="/coding">Coding</a>
-        <a href="/intern">Intern</a>
-        <a href="/job">Job</a>
+        <a href="">Coding</a>
+        <a href="">Intern</a>
+        <a href="">Job</a>
       </div>
     </nav>
   );

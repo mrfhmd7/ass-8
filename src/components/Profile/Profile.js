@@ -5,7 +5,7 @@ import "./Profile.css";
 
 const Profile = (props) => {
   const { url, profileUrl, name, date, id, title, read, mark } =
-    props.knowledge;
+    props?.knowledge || {};
 
   const handleBookMark = props.handleBookMark;
   const handleAnchorTag = props.handleAnchorTag;
@@ -34,7 +34,10 @@ const Profile = (props) => {
         <p>
           <small>Id: {id}</small>
         </p>
-        <a onClick={() => handleAnchorTag(props.knowledge)} href="/mark">
+        <a
+          style={{ cursor: "pointer" }}
+          onClick={() => handleAnchorTag(props.knowledge)}
+        >
           {mark}
         </a>
       </div>
