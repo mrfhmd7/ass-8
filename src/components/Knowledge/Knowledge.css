@@ -1,0 +1,18 @@
+.knowledge-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.total-cafe{
+    background-color: rgba(17, 17, 17, 0.05);
+    margin-right: 30px;
+    padding-left: 50px;
+}
+.total-cafe h2{
+    color: #6047EC;
+}
+@media screen and (max-width:576px) {
+    .knowledge-container{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+}
