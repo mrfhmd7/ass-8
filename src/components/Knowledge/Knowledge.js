@@ -16,7 +16,6 @@ const Knowledge = () => {
       console.log(acc);
     }, 0);
   }
-
   let unique = [...new Set(info)];
 
   useEffect(() => {
